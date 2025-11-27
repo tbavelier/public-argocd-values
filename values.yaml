@@ -1,0 +1,5 @@
+datadog:
+  apiKeyExistingSecret: datadog-secret
+  clusterName: argocd-kind
+  kubelet:
+    tlsVerify: false
