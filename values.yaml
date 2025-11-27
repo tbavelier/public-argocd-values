@@ -3,3 +3,8 @@ datadog:
   clusterName: argocd-kind
   kubelet:
     tlsVerify: false
+  apm:
+    instrumentation:
+      skipKPITelemetry: true
+clusterAgent:
+  token: aaaaaaaaat5thjkerhtjkfhgjkdfhgjkdfhgkjfdhgkjh
